@@ -31,7 +31,7 @@ docker build -t flask-docker-app .
 ### 3. Ejecutar la aplicación
 
 ```bash
-docker run -p 127.0.0.1:5000 flask-docker-app
+docker run -p 5000:5000 flask-docker-app
 ```
 
 ¡Eso es todo! 🎉
